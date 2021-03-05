@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace DataAccess.Concrete.EntityFramework
+namespace Core.Entities
 {
-    public class EfBrand
+    public interface IEntity
     {
 
     }
