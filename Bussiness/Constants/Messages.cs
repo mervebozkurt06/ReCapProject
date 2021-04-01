@@ -6,38 +6,49 @@ namespace Bussiness.Constants
 {
     public static class Messages
     {
-        public static string CarAdded = "Araba eklendi";
-        public static string CarNameInvalid = "Araba ismi geçersiz";
-        internal static string MaintenanceTime = "Sistem bakımda";
-        internal static string CarsListed = "Arabalar listelendi";
+        public static string MaintenanceTeam = "The system is under maintenance";
+        public static string Updated = "Update completed successfully";
 
+        public static string CarAdded = "New car added";
+        public static string CarDailyPriceInvalid = "The car name must be at least 2 characters";
+        public static string CarDeleted = "The car deleted";
+        public static string CarListed = "Cars listed";
+        internal static string ProductAlreadyExists = "The car with this name already exists";
 
-        public static string BrandNameInvalid = "Marka ismi geçersiz";
-        public static string BrandAdded = "Marka eklendi";
-        public static string BrandUpdated = "Marka güncellendi";
-        public static string BrandDeleted = "Marka silindi";
-        internal static string BrandsListed = "Markalar listelendi";
+        public static string BrandAdded = "New brand added";
+        public static string BrandDeleted = "The brand deleted";
+        public static string BrandListed = "Brands listed";
+        public static string BrandListedById = "Brands listed by Id number";
 
-        public static string ColorNameInvalid = "Renk ismi geçersiz";
-        public static string ColorAdded = "Renk eklendi";
-        public static string ColorDeleted = "Renk silindi";
-        public static string ColorUpdated = "Renk güncellendi";
-        internal static string ColorsListed = "Renkler listelendi";
+        public static string ColorAdded = "New color added";
+        public static string ColorDeleted = "The color deleted";
+        public static string ColorListed = "Brands listed";
+        public static string ColorListedById = "Colors listed by id number";
 
-        public static string CustomerNameInvalid = "Müşteri ismi geçersiz";
-        public static string CustomerAdded = "Müşteri eklendi";
-        public static string CustomerDeleted = "Müşteri silindi";
-        public static string CustomerUpdated = "Müşteri güncellendi";
-        internal static string CustomersListed = "Müşteriler listelendi";
+        public static string RentalAdded = "Rental information added";
+        public static string RentalInvalid = "Rent another car please";
+        public static string RentalListed = "Rental information listed";
 
-        public static string RentalAdded = "Rental eklendi.";
-        public static string RentalDeleted = "Rental silindi.";
-        public static string RentalUpdated = "Rental güncellendi.";
-        public static string RentalInvalidation = "Rental kiralanamıyor";
+        public static string CustomerAdded = "New customer added";
+        public static string CustomerDeleted = "The customer deleted";
+        public static string CustomerListed = "Customers listed";
+        public static string CustomerListedById = "Customers listed by id number";
 
-        public static string UserAdded = "Kullanıcı eklendi.";
-        public static string UserDeleted = "Kullanıcı silindi.";
-        public static string UserUpdated = "Kullanıcı güncellendi.";
+        public static string UserAdded = "New user added";
+        public static string UserListed = "Users listed";
+        public static string UserListedById = "Users listed by id number";
 
+        internal static string CarCheckImageLimited = "";
+        internal static string CarImagesListed = "Card images listed";
+        internal static string CarImageAdded = "New car image added";
+        internal static string CarImageDeleted = "The car image deleted";
+
+        internal static string AuthorizationDenied = "You aren't authorized";
+        public static string UserRegistered = "User registered";
+        public static string UserNotFound = "User not found";
+        public static string PasswordError = "You entered the password incorrectly";
+        public static string SuccessfulLogin = "Successful login";
+        public static string UserAlreadyExists = "User already exist";
+        public static string AccessTokenCreated = "Created Token";
     }
 }
